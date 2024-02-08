@@ -1,7 +1,7 @@
 if(instance_number(oEnemy) <= 0){
 	
 	spawn_count = 0;
-	spawn_amount++;
+	spawn_amount++; //ADD BACK IN increase enemies in each wave
 	global.level++;
 	global.hp += 10;
 	global.spd += 0.1;
